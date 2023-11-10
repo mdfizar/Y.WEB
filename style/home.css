@@ -1,0 +1,181 @@
+/*------HEADER IS START -------*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  padding-top: 95px;
+  padding-bottom: 400px;
+  padding-left: 95px;
+  background-color: rgb(246, 246, 246);
+}
+nav {
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  z-index: 1;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  height: 50px;
+  margin-right: 20px;
+  width: 190px;
+}
+.fa-solid {
+  font-size: 25px;
+  margin-left:px;
+}
+.fa-microphone {
+  font-size: 25px;
+  margin-top: 4px;
+}
+.middle-section {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-right: 38px;
+  flex: 1;
+  max-width: 500px;
+}
+.text {
+  width: 0px;
+  height: 35px;
+  font-size: 19px;
+  padding-left: 10px;
+  padding-top: 5px;
+  outline: none;
+  flex: 1;
+  max-width: 300px;
+  text-align: left;
+}
+::placeholder {
+  font-size: 20px;
+}
+.btn-1 {
+  border: none;
+  height: 44px;
+  width: 70px;
+  background: rgb(222, 220, 220);
+  border-radius: 0px 4px 4px 0px;
+  margin-left: -2px;
+}
+.btn-2 {
+  width: 40px;
+  height: 44px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 35px;
+  background: rgb(222, 220, 220);
+}
+
+.right-section {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 300px;
+}
+
+.upload-edit {
+  width: 30px;
+}
+.youtube-app-icon {
+  width: 30px;
+}
+
+.fa-bell {
+  font-size: 30px;
+}
+.profile-pic-1 {
+  width: 40px;
+  border-radius: 30px;
+
+}
+/*------- HEADER is end ------ */
+
+/* ------side bar is start ------ */
+.side-bar {
+  position: fixed;
+  top: 60px;
+  bottom: 0px;
+  left: 0px;
+  width: 80px;
+  background-color: #fff;
+
+}
+.side-bar-flex {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+}
+button {
+  border: none;
+  width: 80px;
+  height: 85px;
+  background-color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(233, 232, 232);
+}
+.fa-internet-explorer {
+ color: black;
+}
+.fa-youtube {
+  color: black;
+}
+.fa-brands, .fa-solid {
+  font-size: 20px;
+}
+.side-bar-flex p {
+  font-size: 14px;
+}
+/*-------site bar is end-------- */
+/*-------------!Layout is start!----------- */
+.post-cart {
+  position: relative;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 300px;
+}
+.duration {
+  font-size: 25px;
+  position: absolute;
+  right: 3px;
+  bottom: 90px;
+  color: white;
+  background-color: rgb(205, 205, 205);
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/*-----Layout is end ---------*/
+.thumbnail-edit {
+  width: 300px;
+  margin-bottom: 10px;
+}
+.profile-pic-edit {
+  width: 50px;
+  border-radius: 50px;
+}
+.img-div {
+  vertical-align: top;
+  width: 50px;
+  display: inline-block;
+}
+.pragraph-div {
+  width: 245px;
+  display: inline-block;
+}
